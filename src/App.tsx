@@ -1,10 +1,13 @@
-import { Typography } from "@mui/joy";
+import { Box, Container, Typography } from "@mui/joy";
 
 function App() {
 	return (
-		<Typography level="title-lg" textAlign={"center"}>
-			Codegen + Mui Joy Installed
-		</Typography>
+		<Container maxWidth="lg">
+			<Box>
+				<Typography level="title-md">Hey y'all</Typography>
+				<Typography level="title-lg">I'm Alex Clarke</Typography>
+			</Box>
+		</Container>
 	);
 }
 
